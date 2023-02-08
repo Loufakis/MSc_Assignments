@@ -10,4 +10,8 @@ Some of the main features used in the analysis include:
 - Type of violence experienced
 - Whether there was a person who helped her with the experience
 
-It is important to note that the data was in a very poor condition and limited information could be gained from it. As a result, the accuracy of the prediction models is expected to be low.
+It is important to note that the data was in poor condition and limited information could be gained from it. As a result, the accuracy of the prediction models is expected to be low. However, after cleaning the data, removal of outliers, scaling and PCA, the best model that came out of this analysis was a Support Vector Machine with a Sigmoid kernel. All the models were trained and compared using the F1 Macro metric.
+
+### Here are the scores of the different machine learning models:
+![Machine Learning Models Comperison](imgs/Scores_by_Algorythm.png)
+
